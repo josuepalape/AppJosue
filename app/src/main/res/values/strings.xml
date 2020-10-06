@@ -1,0 +1,18 @@
+<resources>
+    <string name="Cobro_con_targetas">My Application</string>
+    <string name="info">Informacion</string>
+    <string name="informacion">Informacion</string>
+    <string name="Nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="numero_de_targeta">Numero de targeta</string>
+    <string name="DD">DD</string>
+    <string name="MM">MM</string>
+    <string name="YY">YY</string>
+    <string name="COD">COD</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Ciudad">Ciudad</string>
+    <string name="Estado">"Estado "</string>
+    <string name="Codigo_Postal">"Codigo Postal "</string>
+    <string name="app_name">Cobro de Targetas</string>
+    <string name="Targeta_guardadas">Targeta Guardadas</string>
+</resources>
