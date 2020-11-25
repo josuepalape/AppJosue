@@ -1,18 +1,20 @@
 <resources>
-    <string name="Cobro_con_targetas">My Application</string>
-    <string name="info">Informacion</string>
-    <string name="informacion">Informacion</string>
-    <string name="Nombre">Nombre</string>
-    <string name="apellido">Apellido</string>
-    <string name="numero_de_targeta">Numero de targeta</string>
-    <string name="DD">DD</string>
-    <string name="MM">MM</string>
-    <string name="YY">YY</string>
-    <string name="COD">COD</string>
-    <string name="Direccion">Direccion</string>
-    <string name="Ciudad">Ciudad</string>
-    <string name="Estado">"Estado "</string>
-    <string name="Codigo_Postal">"Codigo Postal "</string>
-    <string name="app_name">Cobro de Targetas</string>
-    <string name="Targeta_guardadas">Targeta Guardadas</string>
+    <string name="app_name">app_juan_navea</string>
+    <string name="euo">escoja una opcion:</string>
+    <string name="next">siguiente</string>
+    <string name="formulario_de_tarjeta">FORMULARIO DE TARJETA</string>
+    <string name="fecha_vencimiento">Fecha vencimiento</string>
+    <string name="nombre">Nombre del titular</string>
+    <string name="titular">Titular</string>
+    <string name="info">Informacion de la tarjeta de credito</string>
+    <string name="num_tar">numero de tarjeta</string>
+    <string name="apell">apellido</string>
+    <string name="mm">año</string>
+    <string name="dd">mes</string>
+    <string name="cod">codigo</string>
+    <string name="direccion">Direccion</string>
+    <string name="direcedit">calle y numero</string>
+    <string name="ciudad">ciudad</string>
+    <string name="estado">estado</string>
+    <string name="codpos">codigo postal</string>
 </resources>

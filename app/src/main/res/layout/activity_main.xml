@@ -25,62 +25,67 @@
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:text="@string/informacion"
+            android:text="@string/info"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/Nombre"
+            android:id="@+id/titular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Nombre"
-            tools:text="" />
-
-        <EditText
-            android:id="@+id/apellido"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/apellido"
+            android:hint="@string/titular"
             tools:text=""
-            android:inputType="TODO" />
+            android:importantForAutofill="no" />
+
 
         <EditText
-            android:id="@+id/numero_targeta"
+            android:id="@+id/apell"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/numero_de_targeta"
+            android:hint="@string/apell"
+            tools:text=""
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/num_tar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/num_tar"
             tools:text="" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <EditText
                 android:id="@+id/mes"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:hint="@string/MM"
+                android:hint="@string/dd"
                 android:inputType="numberDecimal"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textAppearance="?android:textAppearanceSmall" />
+
             <EditText
-                android:id="@+id/Year"
+                android:id="@+id/anio"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:hint="@string/YY"
+                android:hint="@string/mm"
                 android:inputType="numberDecimal"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textAppearance="?android:textAppearanceSmall" />
+
             <EditText
                 android:id="@+id/cod"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:hint="@string/COD"
+                android:hint="@string/cod"
                 android:inputType="numberDecimal"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textAppearance="?android:textAppearanceSmall" />
         </LinearLayout>
 
         <TextView
@@ -89,13 +94,20 @@
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
             android:paddingBottom="15dp"
-            android:text="@string/Direccion"/>
+            android:text="@string/direccion" />
+
+        <EditText
+            android:id="@+id/derecedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/direcedit"
+            tools:text="" />
 
         <EditText
             android:id="@+id/ciudad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Ciudad"
+            android:hint="@string/ciudad"
             tools:text="" />
 
         <LinearLayout
@@ -109,17 +121,18 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:hint="@string/Estado"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:hint="@string/estado"
+                android:textAppearance="?android:textAppearanceSmall" />
+
             <EditText
                 android:id="@+id/codpos"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:hint="@string/Codigo_Postal"
+                android:hint="@string/codpos"
                 android:inputType="numberDecimal"
-                android:textAppearance="?android:textAppearanceSmall"/>
+                android:textAppearance="?android:textAppearanceSmall" />
         </LinearLayout>
 
         <Button
@@ -127,8 +140,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:onClick="Save"
-            android:text="Guardar" />
+            android:onClick="Registrar"
+            android:text="Registrar" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="Buscar"
+            tools:text="Buscar Tarjeta" />
+
 
 
     </LinearLayout>
