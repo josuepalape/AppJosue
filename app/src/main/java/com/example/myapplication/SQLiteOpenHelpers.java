@@ -3,9 +3,7 @@ package com.example.myapplication;
 import android.database.sqlite.SQLiteDatabase;
 import android.content.Context;
 import android.database.sqlite.SQLiteOpenHelper;
-/**
- * Created by Ernesto on 05/3/2018.
- */
+
 
 public class SQLiteOpenHelpers extends SQLiteOpenHelper {
     public SQLiteOpenHelpers(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
